@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Income Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <a href="income.html">Income</a>
+    <a href="expenses.html">Expenses</a>
+    <a href="transactions.html">Transactions</a>
+    <a href="summary.html">Summary</a>
+  </nav>
+  <div class="container">
+    <h2>Income Tracker</h2>
+    <input id="incomeSource" placeholder="Source" />
+    <input id="incomeAmount" type="number" placeholder="Amount" />
+    <button onclick="addIncome()">Add Income</button>
+    <div id="incomeList"></div>
+  </div>
+  <script src="income.js"></script>
+</body>
+</html>

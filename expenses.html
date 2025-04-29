@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Expenses Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <a href="income.html">Income</a>
+    <a href="expenses.html">Expenses</a>
+    <a href="transactions.html">Transactions</a>
+    <a href="summary.html">Summary</a>
+  </nav>
+  <div class="container">
+    <h2>Expenses Tracker</h2>
+    <input id="expenseItem" placeholder="Item" />
+    <input id="expenseAmount" type="number" placeholder="Amount" />
+    <button onclick="addExpense()">Add Expense</button>
+    <div id="expenseList"></div>
+  </div>
+  <script src="expenses.js"></script>
+</body>
+</html>
